@@ -59,7 +59,7 @@ Section ```services``` (lines 4-11). Line 6 specifies the image in ***Docker hub
 
 Section ```profiles``` (lines 13-22) here in the subsection ```resources``` we indicate the rented characteristics of the equipment for our container with the game ***Super Mario***. In our case, this is ```1 cpu, 512 MB of RAM and 512 MB of hard disk```. Enter a name for the deployment at the top and click ***CREATE DEPLOYMENT***.
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221593892-f1385fd5-5d68-45e3-b74a-c0bec7a9e6bc.png" width=30% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221593892-f1385fd5-5d68-45e3-b74a-c0bec7a9e6bc.png" width=60% </p>
 
 We deposit ***5 AKT*** from our account, press ```DEPOSIT```:
 
