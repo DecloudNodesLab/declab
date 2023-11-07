@@ -10,14 +10,14 @@
 
 </div>
 
-## Account connection and preparation for work.
+# Account connection and preparation for work.
 
 Login to [web UI Cloudmos](https://deploy.cloudmos.io/) using the Keplr app:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221588325-7ef4f756-4706-4106-8a3a-839034782469.gif"</p>
 
   
-### Create certificate
+## Create certificate
   
   > Top up your AKT account. Please note that ***5 AKT*** are blocked on the account with each deployment + a small amount of AKT is required to pay for gas. Thus, for the test it is enough to replenish the account with ***6 AKT***. The AKT token can be purchased on the ```Gate```, ```AsendeX```, ```Osmosis``` exchanges.
 
@@ -35,7 +35,7 @@ Preparation is complete, now let's do a test forking.
 
 ___
 
-## Test deployment
+# Test deployment
 
 ***Cloudmos*** has ready-made ***manifest files (deploy.yml)***, they are located in the ```Templates``` tab, check out the offer of ready-made solutions:
 
@@ -79,7 +79,7 @@ Great! It looks like you deployed the game to Akash Network! But you need someth
   
 ___
   
-## Contents of the deployment window
+# Contents of the deployment window
 
 The ```Dashboard``` tab displays your active forks, go to it.
 
@@ -111,7 +111,7 @@ The ```RAW DATA``` tab contains ```JSON``` information from the ```AKASH``` bloc
 
 ___
 
-## Close deployment
+# Close deployment
 
 To close the deployment, you need to click ```CLOSE``` in the context menu and confirm the transaction
 
@@ -123,7 +123,7 @@ After the deployment is closed, the balance of ***AKT*** will be returned to you
 ___
 
   
-## Overview of Cloudmos functionality.
+# Overview of Cloudmos functionality.
   
 ***Dashboard*** - Shows your current account details(1), current online lease status(2) and your active deployments(3).
 
