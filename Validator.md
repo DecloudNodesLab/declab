@@ -1,0 +1,2 @@
+- mainnets
+* testnets
