@@ -1,12 +1,7 @@
-<div align="center">
-
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/219872517-2adc32b1-5f64-4d48-9a81-1e2ef6b01a53.png" width=90% </p>
   
 > An overview and guide to using the Cloudmos custom web user interface.
 
-
-   </div>
-  
 <div align="center">
   
 |[Akash Network](https://akash.network/)|[Discord Akash](https://discord.akash.network/)|[Twitter Akash](https://twitter.com/akashnet_)|
