@@ -25,8 +25,6 @@ Our news channels and technical support:
 |:--:|
 </div>
 
-___
-
 ## Account connection and preparation for work.
 
 Login to [web UI Cloudmos](https://deploy.cloudmos.io/) using the Keplr app:
