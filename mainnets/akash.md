@@ -15,7 +15,9 @@ API: ```https://akash-sandbox.declab.pro```
 
 Peer:
 
-Snapshot: ```https://akash-sandbox.declab.pro/latest.tar.lz4```
+##### Snapshot 
+
+Link: ```https://akash-sandbox.declab.pro/latest.tar.lz4```
 
 ```
 # Reset tendermint chain
@@ -25,4 +27,6 @@ akash tendermint unsafe-reset-all
 curl -o - -L https://akash-sandbox.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.akash
 ```
 
-State sync: ```https://akash-sandbox.declab.pro:443/rpc```
+##### State sync
+
+```https://akash-sandbox.declab.pro:443/rpc```
