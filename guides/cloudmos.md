@@ -19,8 +19,8 @@
 Our news channels and technical support:
 
 | [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) |
-| [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
 |:--:|:--:|:--:|
+| [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
 
 | [Инструкция на русском](/Russian/Cloudmos.md) |
 |:--:|
@@ -60,7 +60,7 @@ The certificate has been created, you can see it in the upper right corner of th
 
 Preparation is complete, now let's do a test forking.
 
-[Up](/guides/cloudmos#an-overview-and-guide-to-using-the-cloudmos-custom-web-user-interface.)
+[Up](guides/cloudmos#in-this-article)
   
 ___
 
