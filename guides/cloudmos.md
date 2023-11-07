@@ -43,7 +43,7 @@ ___
 
 Let's deploy the well-known game ***Super Mario***, to do this, select the appropriate section ***Games*** in ```Templeates``` and click on ```Super Mario```:
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221592345-5eb3f69a-c391-40e1-8d3b-203d7a87069d.png" width=90%</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221592345-5eb3f69a-c391-40e1-8d3b-203d7a87069d.png"</p>
 
 Click ***Deploy***:
 
