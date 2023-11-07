@@ -27,15 +27,6 @@ Our news channels and technical support:
 
 ___
 
-## In this article:
-1. [Connecting an account and preparing for work](/English/Cloudmos.md#account-connection-and-preparation-for-work).
-2. [Create Deployment](/English/Cloudmos.md#test-deployment).
-3. [Review window content](/English/Cloudmos.md#contents-of-the-deployment-window).
-4. [Close Deployment](/English/Cloudmos.md#close-deployment).
-5. [Cloudmos overview](/English/Cloudmos.md#overview-of-cloudmos-functionality).
-
-___
-
 ## Account connection and preparation for work.
 
 Login to [web UI Cloudmos](https://deploy.cloudmos.io/) using the Keplr app:
