@@ -59,8 +59,6 @@ The certificate has been created, you can see it in the upper right corner of th
 
 Preparation is complete, now let's do a test forking.
 
-[Up](guides/cloudmos#in-this-article)
-  
 ___
 
 ## Test deployment
@@ -105,8 +103,6 @@ Information about your provider, rental cost, as well as an individual link to y
 
 Great! It looks like you deployed the game to Akash Network! But you need something more than a game? Then go to the section describing the functionality of ***Cloudmos(Akashlytics)*** =)
   
-[Up](/English/Cloudmos.md#In-this-article)
-  
 ___
   
 ## Contents of the deployment window
@@ -139,8 +135,6 @@ The ```RAW DATA``` tab contains ```JSON``` information from the ```AKASH``` bloc
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221598012-a444a5c6-0a98-4d35-9ce8-0cf63579eb28.png" width=100% </p>
 
-[Up](/English/Cloudmos.md#In-this-article)
-
 ___
 
 ## Close deployment
@@ -152,8 +146,6 @@ To close the deployment, you need to click ```CLOSE``` in the context menu and c
 
 After the deployment is closed, the balance of ***AKT*** will be returned to your main account.
   
-[Up](/English/Cloudmos.md#In-this-article)
-
 ___
 
   
@@ -179,6 +171,4 @@ ___
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221600341-ecb778bd-857e-420e-b13d-b7ff4f22e8ec.png" width=60% </p>
   
-[Up](/English/Cloudmos.md#In-this-article)
-
 ___
