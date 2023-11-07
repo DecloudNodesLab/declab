@@ -14,7 +14,7 @@
 
 Login to [web UI Cloudmos](https://deploy.cloudmos.io/) using the Keplr app:
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221588325-7ef4f756-4706-4106-8a3a-839034782469.gif" width=70% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221588325-7ef4f756-4706-4106-8a3a-839034782469.gif" width=90% </p>
 
   
 ### Create certificate
@@ -29,7 +29,7 @@ After the AKT account is replenished, it is necessary to request and install a c
 
 The certificate has been created, you can see it in the upper right corner of the window.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221591238-e1858e2f-eb8f-4ff1-a01b-269dbb91e1af.gif" width=70% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221591238-e1858e2f-eb8f-4ff1-a01b-269dbb91e1af.gif" width=90% </p>
 
 Preparation is complete, now let's do a test forking.
 
@@ -39,19 +39,19 @@ ___
 
 ***Cloudmos*** has ready-made ***manifest files (deploy.yml)***, they are located in the ```Templates``` tab, check out the offer of ready-made solutions:
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221591869-b37798b8-76d6-476f-8c3d-ec8be35683db.png" width=60% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221591869-b37798b8-76d6-476f-8c3d-ec8be35683db.png" width=90% </p>
 
 Let's deploy the well-known game ***Super Mario***, to do this, select the appropriate section ***Games*** in ```Templeates``` and click on ```Super Mario```:
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221592345-5eb3f69a-c391-40e1-8d3b-203d7a87069d.png" width=60%</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221592345-5eb3f69a-c391-40e1-8d3b-203d7a87069d.png" width=90%</p>
 
 Click ***Deploy***:
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221592527-cc96d385-e682-4ad8-bd47-e2308f9116df.png" width=60% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221592527-cc96d385-e682-4ad8-bd47-e2308f9116df.png" width=90% </p>
 
 ***Cloudmos*** quickly checks for the presence of a certificate and ***5 AKT*** on the balance sheet, and opens the completed ***manifest window (deploy.yml)***, let's dwell on the contents of the manifest:
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221593433-2e94845d-3db2-4adf-acf8-672570b6340c.png" width=60% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221593433-2e94845d-3db2-4adf-acf8-672570b6340c.png" width=90% </p>
   
 Here pay attention to:
 
@@ -59,7 +59,7 @@ Section ```services``` (lines 4-11). Line 6 specifies the image in ***Docker hub
 
 Section ```profiles``` (lines 13-22) here in the subsection ```resources``` we indicate the rented characteristics of the equipment for our container with the game ***Super Mario***. In our case, this is ```1 cpu, 512 MB of RAM and 512 MB of hard disk```. Enter a name for the deployment at the top and click ***CREATE DEPLOYMENT***.
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221593892-f1385fd5-5d68-45e3-b74a-c0bec7a9e6bc.png" width=60% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221593892-f1385fd5-5d68-45e3-b74a-c0bec7a9e6bc.png" width=90% </p>
 
 We deposit ***5 AKT*** from our account, press ```DEPOSIT```:
 
@@ -69,11 +69,11 @@ Set the transaction fee and confirm it. At this stage, we have sent a capacity r
 
 Select a provider and press ```ACCEPT BID```, once again set the commission for the transaction and confirm it. We are waiting for the container to be deployed. Once the container is deployed, go to the ```LEASES``` tab.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221595596-3e2ecd06-2b3a-462b-97db-c8e3466f3c41.png" width=80% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221595596-3e2ecd06-2b3a-462b-97db-c8e3466f3c41.png" width=90% </p>
 
 Information about your provider, rental cost, as well as an individual link to your deployment are available here. Click on it.
   
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179998220-473b42ec-144f-4bff-b640-801fc727983b.png" width=60% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/179998220-473b42ec-144f-4bff-b640-801fc727983b.png" width=90% </p>
 
 Great! It looks like you deployed the game to Akash Network! But you need something more than a game? Then go to the section describing the functionality of ***Cloudmos(Akashlytics)*** =)
   
@@ -127,22 +127,22 @@ ___
   
 ***Dashboard*** - Shows your current account details(1), current online lease status(2) and your active deployments(3).
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599302-10794063-abb5-4303-9f59-f501a8561740.png" width=60% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599302-10794063-abb5-4303-9f59-f501a8561740.png" width=90% </p>
 
 ***Deployments*** - all fanouts ever created on your address, including those that are not active.
 
-   <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599517-615a7796-bae8-4cba-8c96-acae9de506a8.png" width=60% </p>
+   <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599517-615a7796-bae8-4cba-8c96-acae9de506a8.png" width=90% </p>
 
 ***Templates*** - ready-made solutions for deployments, games, database, website builders, miner, etc..
 
-   <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599709-f8969486-a26d-408c-9aac-671dfcff9b32.png" width=60% </p>
+   <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599709-f8969486-a26d-408c-9aac-671dfcff9b32.png" width=90% </p>
   
 ***Provider*** - a list of existing providers in the Akash Network marketplace with their equipment parameters.
 
-  <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599849-e1cf4f85-d25a-418e-a4b5-077634d2ebf0.png" width=60% </p>
+  <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221599849-e1cf4f85-d25a-418e-a4b5-077634d2ebf0.png" width=90% </p>
 
 ***Settings*** - RPC node settings for the application (1). Quick switching is also available in the field at the top of the window (2).
 
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221600341-ecb778bd-857e-420e-b13d-b7ff4f22e8ec.png" width=60% </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/221600341-ecb778bd-857e-420e-b13d-b7ff4f22e8ec.png" width=90% </p>
   
 ___
