@@ -1,4 +1,4 @@
 # Table of contents
 
-* [VaLIDATOR](Validator.md)
+* [Validator](Validator.md)
   * [Mainnets](/mainnets/)
