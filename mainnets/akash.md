@@ -8,12 +8,12 @@ Delegate:
 
 ### Service
 
-RPC:
+RPC: ```https://akash-sandbox.declab.pro/rpc```
 
-API:
+API: ```https://akash-sandbox.declab.pro```
 
 Peer:
 
-Snapshot:
+Snapshot: ```https://akash-sandbox.declab.pro/latest.tar.lz4```
 
-State sync:
+State sync: ```https://akash-sandbox.declab.pro:443/rpc```
