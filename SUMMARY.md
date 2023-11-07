@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Validator](Validator.md)
+* Chains services
   * [Mainnets](/mainnets/)
     * [Akash Network](/mainnets/akash.md)
   * [Testnets](/testnets/)
