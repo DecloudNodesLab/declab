@@ -9,17 +9,9 @@
   
 <div align="center">
   
-| [Twitter Decloud Nodes Lab](https://twitter.com/NodesLab) |
-|:--:|
-
-| [Akash Network](https://akash.network/) | [Forum Akash Network](https://forum.akash.network/) |
-|:--:|:--:|
-
-
-Our news channels and technical support:
-
-| [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Twitter Akash](https://twitter.com/akashnet_) |
+|[Akash Network](https://akash.network/)|[Discord Akash](https://discord.akash.network/)|[Twitter Akash](https://twitter.com/akashnet_)|
 |:--:|:--:|:--:|
+|[Decloud Nodes Lab](https://declab.pro)|[Discord Decloud Nodes Lab](https://discord.gg/eDKdvjfUAS)|[Twitter Decloud Nodes Lab](https://twitter.com/NodesLab)|
 
 | [Инструкция на русском](/Russian/Cloudmos.md) |
 |:--:|
