@@ -23,6 +23,7 @@ Our news channels and technical support:
 
 | [Инструкция на русском](/Russian/Cloudmos.md) |
 |:--:|
+
 </div>
 
 ## Account connection and preparation for work.
