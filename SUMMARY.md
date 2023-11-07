@@ -1,6 +1,6 @@
 # Table of contents
 
-* Chains services
+* Chain Lab
   * [Mainnets](/mainnets/)
     * [Akash Network](/mainnets/akash.md)
   * [Testnets](/testnets/)
