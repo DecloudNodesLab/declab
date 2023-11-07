@@ -13,9 +13,6 @@
 |:--:|:--:|:--:|
 |[Decloud Nodes Lab](https://declab.pro)|[Discord Decloud Nodes Lab](https://discord.gg/eDKdvjfUAS)|[Twitter Decloud Nodes Lab](https://twitter.com/NodesLab)|
 
-| [Инструкция на русском](/Russian/Cloudmos.md) |
-|:--:|
-
 </div>
 
 ## Account connection and preparation for work.
