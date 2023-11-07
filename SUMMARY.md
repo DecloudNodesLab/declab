@@ -1,7 +1,7 @@
 # Table of contents
 
 * Guides
-  * [Cloudmos](/guides/cloudmos.md)
+  * [Cloudmos overview](/guides/cloudmos.md)
 * Blockchains Lab
   * [Mainnets](/mainnets/)
     * [Akash Network](/mainnets/akash.md)
