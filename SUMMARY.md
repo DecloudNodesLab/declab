@@ -1,6 +1,6 @@
 # Table of contents
 
-* Chain Lab
+* Blockchains Lab
   * [Mainnets](/mainnets/)
     * [Akash Network](/mainnets/akash.md)
   * [Testnets](/testnets/)
