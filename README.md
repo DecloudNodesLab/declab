@@ -1,2 +1,0 @@
-# declab
-Gitbook Declab.pro
