@@ -18,9 +18,8 @@
 
 Our news channels and technical support:
 
-| [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) |
+| [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Twitter Akash](https://twitter.com/akashnet_) |
 |:--:|:--:|:--:|
-| [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
 
 | [Инструкция на русском](/Russian/Cloudmos.md) |
 |:--:|
