@@ -7,7 +7,7 @@
 
 
 
-### Service
+##### Endpoints
 
 RPC: ```https://akash-sandbox.declab.pro/rpc```
 
