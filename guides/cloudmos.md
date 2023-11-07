@@ -14,12 +14,13 @@
 
 | [Akash Network](https://akash.network/) | [Forum Akash Network](https://forum.akash.network/) |
 |:--:|:--:|
-___
+
 
 Our news channels and technical support:
 
-| [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
-|:--:|:--:|:--:|:--:|:--:|
+| [Discord Akash](https://discord.akash.network/) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) |
+| [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
+|:--:|:--:|:--:|
 
 | [Инструкция на русском](/Russian/Cloudmos.md) |
 |:--:|
@@ -27,7 +28,7 @@ Our news channels and technical support:
 
 ___
 
-#### In this article:
+## In this article:
 1. [Connecting an account and preparing for work](/English/Cloudmos.md#account-connection-and-preparation-for-work).
 2. [Create Deployment](/English/Cloudmos.md#test-deployment).
 3. [Review window content](/English/Cloudmos.md#contents-of-the-deployment-window).
@@ -43,7 +44,7 @@ Login to [web UI Cloudmos](https://deploy.cloudmos.io/) using the Keplr app:
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221588325-7ef4f756-4706-4106-8a3a-839034782469.gif" width=70% </p>
 
   
-#### Create certificate
+### Create certificate
   
   > Top up your AKT account. Please note that ***5 AKT*** are blocked on the account with each deployment + a small amount of AKT is required to pay for gas. Thus, for the test it is enough to replenish the account with ***6 AKT***. The AKT token can be purchased on the ```Gate```, ```AsendeX```, ```Osmosis``` exchanges.
 
@@ -59,7 +60,7 @@ The certificate has been created, you can see it in the upper right corner of th
 
 Preparation is complete, now let's do a test forking.
 
-[Up](/English/Cloudmos.md#In-this-article)
+[Up](/guides/cloudmos#an-overview-and-guide-to-using-the-cloudmos-custom-web-user-interface.)
   
 ___
 
@@ -157,7 +158,7 @@ After the deployment is closed, the balance of ***AKT*** will be returned to you
 ___
 
   
-### Overview of Cloudmos functionality.
+## Overview of Cloudmos functionality.
   
 ***Dashboard*** - Shows your current account details(1), current online lease status(2) and your active deployments(3).
 
