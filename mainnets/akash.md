@@ -1,8 +1,8 @@
 # Akash Network
 
-|[Akash site](https://akash.network/)|[Akash discord](https://discord.akash.network/)|[Akash GITHUB](https://github.com/akash-network)|
+|[Akash site](https://akash.network/)|[Akash Discord](https://discord.akash.network/)|[Akash Github](https://github.com/akash-network)|
 |:--:|:--:|:--:|
-|[Akash TELEGRAM EN](https://t.me/AkashNW)|[Akash TELEGRAM RU](https://t.me/akash_ru)|[Akash X](https://twitter.com/akashnet_)|
+|[Akash Telegram EN](https://t.me/AkashNW)|[Akash Telegram RU](https://t.me/akash_ru)|[Akash X](https://twitter.com/akashnet_)|
 |[Guide](https://github.com/DecloudNodesLab/Guides/blob/main/English/Deploy_CosmosSDK_node.md)|[Delegate to us](https://restake.app/akash/akashvaloper1ax4c40gn3s74xxm75g6cmts3fw7rq64gq0kaj4a)|[EXPLORER](https://explorer.declab.pro/Akash)|
 
 
