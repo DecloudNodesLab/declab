@@ -8,28 +8,28 @@
 
 ##### Endpoints
 
-RPC: ```https://akash-sandbox.declab.pro/rpc```
+RPC: ```https://akash.declab.pro/rpc```
 
-API: ```https://akash-sandbox.declab.pro```
+API: ```https://akash.declab.pro```
 
 Peer:
 
 ##### Snapshot 
 
-Link: ```https://akash-sandbox.declab.pro/latest.tar.lz4```
+Link: ```https://akash.declab.pro/latest.tar.lz4```
 
 ```
 # Reset tendermint chain
 akash tendermint unsafe-reset-all
 
 # Download and unpack the archive
-curl -o - -L https://akash-sandbox.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.akash
+curl -o - -L https://akash.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.akash
 ```
 
 ##### State sync
 
 ```
-SNAP_RPC="https://akash-sandbox.declab.pro:443/rpc"
+SNAP_RPC="https://akash.declab.pro:443/rpc"
 
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
