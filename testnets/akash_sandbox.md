@@ -1,23 +1,31 @@
 # Akash Network
-|[AKASH SITE](https://akash.network/)|[AKASH DISCORD](https://discord.akash.network/)|[AKASH GITHUB](https://github.com/akash-network)|
+
+|[Akash site](https://akash.network/)|[Akash Discord](https://discord.akash.network/)|[Akash Github](https://github.com/akash-network)|
 |:--:|:--:|:--:|
-|[AKASH TELEGRAM EN](https://t.me/AkashNW)|[AKASH TELEGRAM RU](https://t.me/akash_ru)|[AKASH TWITTER](https://twitter.com/akashnet_)|
-|[GUIDE](https://github.com/DecloudNodesLab/Guides/blob/main/English/Deploy_CosmosSDK_node.md)|[SDL](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects/Akash_Network/akash_mainnet_deploy.yml)|[CLOUDMOS](https://deploy.cloudmos.io/)|
-|[DELEGATE](https://restake.app/akash/akashvaloper1ax4c40gn3s74xxm75g6cmts3fw7rq64gq0kaj4a)|[EXPLORER](https://explorer.declab.pro/Akash)|[DECLOUD NODES LAB TELEGRAM CHANNEL](https://t.me/NodesLab)|
+|[Akash Telegram EN](https://t.me/AkashNW)|[Akash Telegram RU](https://t.me/akash_ru)|[Akash X](https://twitter.com/akashnet_)|
+|[Guide](https://docs.declab.pro/guides)|[Deploy file](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects/Akash_Network/akash_sandbox_deploy.yml)|[Delegate to us](https://restake.app/akash/akashvaloper1ax4c40gn3s74xxm75g6cmts3fw7rq64gq0kaj4a)|
 
 
+## Endpoints
 
-##### Endpoints
+**Genesis:** ```https://akash-sandbox.declab.pro/genesis.json```
 
-RPC: ```https://akash-sandbox.declab.pro/rpc```
+**Addrbook:** ```https://akash-sandbox.declab.pro/addrbook.json```
 
-API: ```https://akash-sandbox.declab.pro```
+**RPC:** ```https://akash-sandbox.declab.pro/rpc```
 
-Peer:
+**API:** ```https://akash-sandbox.declab.pro```
 
-##### Snapshot 
+**Peer:** ```889b8298638ccf8c75888d5159985b46d4473238@akash-sandbox.declab.pro:32583```
 
-Link: ```https://akash-sandbox.declab.pro/latest.tar.lz4```
+```
+PEERS=889b8298638ccf8c75888d5159985b46d4473238@akash-sandbox.declab.pro:32583,e06a303953a66de205d35e6ab1f17c0dc035a516@p2p.sandbox-01.aksh.pw:26656,df9dbde281cc2b64137423f9fabac9f0ef70b3bc@104.21.78.218:30592,178aceed035d9310482bc42e0aa1c0e4af7693e8@162.55.245.144:12010
+sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.akash/config/config.toml
+```
+
+## Snapshot 
+
+**Link:** ```https://akash-sandbox.declab.pro/latest.tar.lz4```
 
 ```
 # Reset tendermint chain
@@ -27,17 +35,17 @@ akash tendermint unsafe-reset-all
 curl -o - -L https://akash-sandbox.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.akash
 ```
 
-##### State sync
+## State sync
 
 ```
-SNAP_RPC="https://akash-sandbox.declab.pro:443/rpc"
+RPC="https://akash-sandbox.declab.pro:443/rpc"
 
-LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
+LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
-TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
+TRUST_HASH=$(curl -s "$RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
 
 sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
-s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
+s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$RPC,$RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.akash/config/config.toml
 ```
