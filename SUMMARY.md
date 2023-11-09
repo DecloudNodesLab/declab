@@ -2,6 +2,8 @@
 
 * Guides
   * [Cloudmos overview](/guides/cloudmos.md)
+  * [Cosmos SDK](/guides/CosmosSDK/)
+     * [Create priv_validator_key.json](/guides/CosmosSDK/create_validator_key.md)
 * Blockchains Lab
   * [Mainnets](/mainnets/)
     * [Akash Network](/mainnets/akash.md)
