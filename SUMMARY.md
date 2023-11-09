@@ -1,5 +1,6 @@
 # Table of contents
 
+* [Intro to Akash](README.md)
 * Guides
   * [Cloudmos overview](/guides/cloudmos.md)
   * [Cosmos SDK](/guides/CosmosSDK/)
