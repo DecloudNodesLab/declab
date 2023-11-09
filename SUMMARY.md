@@ -20,4 +20,4 @@
 * Software
   * [3proxy]()
   * [V2RAY](/software/v2ray.md)
-  * [SOCKS proxy]()
+  * [SOCKS proxy](/software/3proxy.md)
