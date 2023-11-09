@@ -4,7 +4,9 @@
 
 | [Akash Network](https://akash.network/) | [Decloud Nodes Lab](https://declab.pro/) |
 |:--:|:--:|
+
 ___
+
 Before you start - subscribe to our news channels:
 
 | [Discord Decloud Nodes Lab](https://discord.gg/rPENzerwZ8) | [X Decloud Nodes Lab](https://x.com/NodesLab) |
