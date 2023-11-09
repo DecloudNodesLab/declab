@@ -4,4 +4,4 @@ description: >-
   clouds meet.
 ---
 
-# Intro to Akash
+# Intro to Decloud Nodes Lab
