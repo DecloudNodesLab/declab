@@ -17,3 +17,7 @@
     * [Akash Network(Sandbox)](/testnets/akash_sandbox.md)
     * [OKP4](/testnets/okp4.md)
     * [Lava](/testnets/lava.md)
+* Software
+  * [3proxy]()
+  * [V2RAY](/software/v2ray.md)
+  * [SOCKS proxy]()
