@@ -47,8 +47,8 @@ By going to the forwarded port **26657**, in the `LEASES` tab, you can view `web
 
 <div align="center">
 
-<p align="center"><img src="https://github.com/DecloudNodesLab/declab/assets/23629420/046ff147-7765-4e78-b3c8-dd407cd5dce8" width=45% align="left"</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/23629420/182032818-069eef95-8242-459f-b503-ad8322261482.png" width=45% </p>
+<p align="center"><img src="https://github.com/DecloudNodesLab/declab/assets/23629420/046ff147-7765-4e78-b3c8-dd407cd5dce8" width=40% align="left"</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/182032818-069eef95-8242-459f-b503-ad8322261482.png" width=40% </p>
 
 </div>
 
