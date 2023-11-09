@@ -9,13 +9,10 @@
 
 # CLI templates for projects based on Cosmos SDK.
 ```
-BINARY=PROJECT_BINARY_NAME - Set the binary file name of the project (example: akash - for Akash Network, gitopiad - for Gitopia).
-
-DENOM=PROJECT_UTOKEN - Set the denom token (example: uakt - for Akash Network, ulore - for Gitopia).
-
-CHAIN=PROJECT_CHAIN_ID - Set the chain-id project (example: akashnet-2 - for Akash Network, gitpoia - for Gitopia).
-
-MONIKER=YOUR_MONIKER - Set your node name.
+BINARY=PROJECT_BINARY_NAME # Set the binary file name of the project (example: akash - for Akash Network, gitopiad - for Gitopia).
+DENOM=PROJECT_UTOKEN # Set the denom token (example: uakt - for Akash Network, ulore - for Gitopia).
+CHAIN=PROJECT_CHAIN_ID # Set the chain-id project (example: akashnet-2 - for Akash Network, gitpoia - for Gitopia).
+MONIKER=YOUR_MONIKER # Set your node name.
 ```
 ___
 
