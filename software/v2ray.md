@@ -16,6 +16,7 @@ Place your `config.json` file on any platform where direct download will be avai
 ## Step 2 (Deploy on Akash Network)
 
 Deploy [deploy.yml](https://gitopia.com/DecloudNodesLab/software/tree/master/v2ray/deploy.yml) file on Akash Network. If need, replace with your own link, the value in the `CONFIG_LINK` variable. Select provider and waiting finish deploy.
+
 ![image](https://github.com/DecloudNodesLab/Projects/assets/23629420/9a72129d-080a-4cec-8fb9-2e257e0d3bcb)
 
 ![image](https://github.com/DecloudNodesLab/Projects/assets/23629420/28c10d71-6cfd-4977-86e4-65278fda11ea)
