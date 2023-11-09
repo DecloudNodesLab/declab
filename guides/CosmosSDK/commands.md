@@ -39,7 +39,12 @@ $BINARY q bank balances ADDRESS
 Send 1 token to another address:
 
 ```
-$BINARY tx bank send SENDER_ADDRESS RECEIVER_ADDRESS 1000000$DENOM ---fees 1000$DENOM --chain-id $CHAIN -y
+$BINARY tx bank send \
+SENDER_ADDRESS \
+RECEIVER_ADDRESS \
+1000000$DENOM \
+---fees 1000$DENOM \
+--chain-id $CHAIN
 ```
 
 ___
