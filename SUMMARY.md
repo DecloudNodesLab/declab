@@ -18,6 +18,6 @@
     * [OKP4](/testnets/okp4.md)
     * [Lava](/testnets/lava.md)
 * Software
-  * [3proxy]()
+  * [3proxy](/software/3proxy.md)
   * [V2RAY](/software/v2ray.md)
-  * [SOCKS proxy](/software/3proxy.md)
+  * [SOCKS proxy]()
