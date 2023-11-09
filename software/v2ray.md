@@ -2,19 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/23629420/219872517-2adc32b1-5f64-4d48-9a81-1e2ef6b01a53.png)
 
-| [Akash Network](https://akash.network/) | [Decloud Nodes Lab](https://declab.pro/) |
-|:--:|:--:|
-
-___
-
-Before you start - subscribe to our news channels:
-
-| [Discord Decloud Nodes Lab](https://discord.gg/rPENzerwZ8) | [X Decloud Nodes Lab](https://x.com/NodesLab) |
-|:--:|:--:|
-| [Telegram channel Decloud Nodes Lab](https://t.me/NodesLab) | [Guide CloudMos](https://docs.declab.pro/guides/cloudmos) |
-
-___
-
 Product documentation:
 
 | [Site V2RAY](https://www.v2fly.org/en_US) | [GitHub V2RAY](https://github.com/v2fly) |
