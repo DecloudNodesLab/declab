@@ -18,25 +18,25 @@ ___
 
 ## Account (wallet) commands
 
-Create wallet:
+**Create wallet:**
 
 ```
 $BINARY keys add WALLET_NAME
 ```
 
-Restore wallet:
+**Restore wallet:**
 
 ```
 $BINARY keys add WALLET_NAME --recover
 ```
 
-Check balance:
+**Check balance:**
 
 ```
 $BINARY q bank balances ADDRESS
 ```
 
-Send 1 token to another address:
+**Send 1 token to another address:**
 
 ```
 $BINARY tx bank send \
@@ -51,7 +51,7 @@ ___
 
 ## Validator commands
 
-Create a validator
+**Create a validator:**
 
 ```
 $BINARY tx staking create-validator \
@@ -71,13 +71,13 @@ $BINARY tx staking create-validator \
 --fees 1000$DENOM 
 ```
 
-Check validator pubkey
+**Check validator pubkey:**
 
 ```
 $BINARY tendermint show-validator
 ```
 
-Check validator
+**Check validator:**
 
 ```
 $BINARY query staking validator VALOPER_ADDRESS
@@ -87,13 +87,13 @@ $BINARY query staking validator VALOPER_ADDRESS
 $BINARY query staking validators --limit 1000000 -o json | jq '.validators[] | select(.description.moniker=="$MONIKER")' | jq
 ```
   
-Collect commissions + rewards
+**Collect commissions + rewards:**
 
 ```
 $BINARY tx distribution withdraw-rewards VALOPER_ADDRESS --from OWNER_ADDRESS --fees 1000$DENOM --commission --chain-id $CHAIN -y
 ```
 
-Delegate 1,000,000 'u' token to yourself
+**Delegate 1,000,000 'u' token to yourself:**
 
 ```
 $BINARY tx staking delegate VALOPER_ADDRESS 1000000$DENOM --from OWNER_ADDRESS --fees 1000$DENOM --chain-id $CHAIN -y
@@ -103,31 +103,31 @@ ___
 
 ## Voting commands
   
-Proposals list
+**Proposals list:**
 
 ```
 $BINARY q gov proposals
 ```
   
-View the result of the vote
+**View the result of the vote:**
 
 ```
 $BINARY q gov proposals --voter ADDRESS
 ```
   
-Vote 'yes' for the proposal №1
+**Vote 'yes' for the proposal №1:**
 
 ```
 $BINARY tx gov vote 1 yes --from ADDRESS --fees 1000$DENOM
 ```
   
-Make a deposit to the offer
+**Make a deposit to the offer:**
 
 ```
 $BINARY tx gov deposit 1 1000000$DENOM --from ADDRESS --fees 1000$DENOM
 ```
 
-Create an offer
+**Create an offer:**
 
 ```
 $BINARY tx gov submit-proposal --title="Randomly reward" \
@@ -141,7 +141,7 @@ ___
 
 ## Network settings commands
   
-Network settings
+**Network settings:**
 
 ```
 $BINARY q staking params
@@ -151,7 +151,7 @@ $BINARY q staking params
 $BINARY q slashing params
 ```
 
-Get out of jail
+**Get out of jail:**
 
 ```
 $BINARY tx slashing unjail --from OWNER_ADDRESS --fees 1000$DENOM -y
@@ -161,7 +161,7 @@ $BINARY tx slashing unjail --from OWNER_ADDRESS --fees 1000$DENOM -y
 $BINARY q slashing signing-info $($BINARY tendermint show-validator)
 ```
 
-Check Status
+**Check Status:**
 
 ```
 $BINARY status
