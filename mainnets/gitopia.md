@@ -1,4 +1,5 @@
-# Gitopia
+<h1><img src="https://pbs.twimg.com/profile_images/1440291565302284304/0r9YJOJW_400x400.png" alt="Gitopia" style="height:30px; width:30px;"/> Gitopia</h1>
+
 
 |[Site](https://gitopia.com/)|[Discord](https://discord.gg/QGBCkdSZ)|[Repository](https://gitopia.com/home)|
 |:--:|:--:|:--:|
