@@ -13,7 +13,7 @@ ___
 
 ## Node deployment:
 
-Select a project and deploy the [deploy.yml](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects) file using **Cloudmos** ([instructions for use here](https://docs.declab.pro/guides/cloudmos)).
+Select a project and deploy the [deploy.yml](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects) file using **Cloudmos** ([instructions for use here](https://services.declab.pro/guides/cloudmos)).
 If you use the projects that we have prepared, then you just need to enter your values in the variables listed below in `deploy.yml`, leave the rest unchanged: <br/>
 ```
 - "SSH_KEY=" - Public ssh-key for connecting via SSH (user root). If it is not specified, the SSH service will not be installed.
@@ -41,7 +41,7 @@ If you deployed the project node yourself, then here is a list of available envi
 binary file.
 
 ```
-If you don't have `priv_validator_key.json`, refer to [this manual](https://docs.declab.pro/guides/cosmos-sdk/create_validator_key).
+If you don't have `priv_validator_key.json`, refer to [this manual](https://services.declab.pro/guides/cosmos-sdk/create_validator_key).
 
 By going to the forwarded port **26657**, in the `LEASES` tab, you can view `websocket` of the node, where its up-to-date information was available.
 
