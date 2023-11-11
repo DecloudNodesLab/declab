@@ -12,7 +12,7 @@
     * [Akash Network](mainnets/akash.md)
     * [Gitopia](mainnets/gitopia.md)
     * [Empower](mainnets/empower.md)
-    * [Source](mainnets/source.md)
+    * [Source](mainnets/source-protocol.md)
     * [Juno](mainnets/juno.md)
   * [Testnets](testnets/README.md)
     * [Akash Network(Sandbox)](testnets/akash\_sandbox.md)
