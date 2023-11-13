@@ -8,6 +8,9 @@
 
 ## Endpoints
 
+|[**RPC**](https://akash.declab.pro/rpc)|[**API**](https://akash.declab.pro)|
+|:--:|:--:|
+
 **Genesis:** ```https://akash.declab.pro/genesis.json```
 
 ```
@@ -21,9 +24,6 @@ mv genesis.json ~/.akash/config
 wget -O addrbook.json https://akash.declab.pro/addrbook.json --inet4-only
 mv addrbook.json ~/.akash/config
 ```
-
-|[**RPC**](https://akash.declab.pro/rpc)|[**API**](https://akash.declab.pro)|
-|:--:|:--:|
 
 **Peer:** ```d85b6e290e57701f5b816baa01b6a286c14f9400@provider.nmfakash.uk:32649```
 
