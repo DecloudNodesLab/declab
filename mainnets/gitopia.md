@@ -9,6 +9,9 @@
 
 ## Endpoints
 
+|[**RPC**](https://gitopia.declab.pro/rpc)|[**API**](https://gitopia.declab.pro)|
+|:--:|:--:|
+
 **Genesis:** ```https://gitopia.declab.pro/genesis.json```
 
 ```
@@ -22,9 +25,6 @@ mv genesis.json ~/.gitopia/config
 wget -O addrbook.json https://gitopia.declab.pro/addrbook.json --inet4-only
 mv addrbook.json ~/.gitopia/config
 ```
-
-|[**RPC**](https://gitopia.declab.pro/rpc)|[**API**](https://gitopia.declab.pro)|
-|:--:|:--:|
 
 **Peer:** ```d85b6e290e57701f5b816baa01b6a286c14f9400@provider.nmfakash.uk:31852```
 
