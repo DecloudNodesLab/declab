@@ -1,5 +1,7 @@
 # Vidulum
 
+![](/assets/banner.png)
+
 |[Site](https://vidulum.app/)|[Discord](https://discord.gg/hne7Ccq)|[Github](https://github.com/vidulum)|
 |:--:|:--:|:--:|
 |[Youtube](https://www.youtube.com/channel/UCNd92ZViZweu6zz5ydt_wrQ)|[Reddit](https://www.reddit.com/r/VidulumOfficial/)|[X](https://twitter.com/VidulumApp)|
