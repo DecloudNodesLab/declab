@@ -1,5 +1,7 @@
 # Lava Network
 
+![](/assets/banner.png)
+
 |[Lava Site](https://www.lavanet.xyz/)|[Discord](https://discord.gg/Tbk5NxTCdA)|[Github](https://github.com/lavanet)|
 |:--:|:--:|:--:|
 |[Documentations](https://docs.lavanet.xyz/)|[Gateway](https://accounts.lavanet.xyz/)|[X](https://twitter.com/lavanetxyz)|
