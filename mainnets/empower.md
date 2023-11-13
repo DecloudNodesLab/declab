@@ -1,4 +1,7 @@
 # Empower
+
+![](/assets/banner.png)
+
 |[Site](https://www.empowerchain.io/)|[Discord](https://discord.com/invite/DNB4z8EZDx)|[Github](https://github.com/EmpowerPlastic)|
 |:--:|:--:|:--:|
 |[Telegram](https://t.me/empowerchain)|[Medium](https://docs.empowerchain.io/)|[X](https://twitter.com/empowerchain_io)|
