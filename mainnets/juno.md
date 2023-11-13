@@ -16,10 +16,10 @@
 
 **API:** ```https://juno.declab.pro```
 
-**Peer:** ```"f3cc992ab6b8192864dd791360b4ecae17705039@provider.palmito.duckdns.org:32209"```
+**Peer:** ```"d85b6e290e57701f5b816baa01b6a286c14f9400@provider.palmito.duckdns.org:30786"```
 
 ```
-PEERS=f3cc992ab6b8192864dd791360b4ecae17705039@provider.palmito.duckdns.org:32209,0edf09d33c9f5429c7539f11a56e1e0ab8981529@144.217.158.129:26656,07191cd1f1968bd21373b53eb5b932deb408a5b7@167.235.216.230:27003,b1d278873767fad599ebf710f840d90c93e8caeb@95.111.249.160:26656,839088f5507a45d1cee03739f741d87749868009@198.244.165.175:16656,7b4cd4197afd6851abdf0875bfb3e348df8b03cc@65.109.61.50:26656
+PEERS=d85b6e290e57701f5b816baa01b6a286c14f9400@provider.palmito.duckdns.org:30786,0edf09d33c9f5429c7539f11a56e1e0ab8981529@144.217.158.129:26656,07191cd1f1968bd21373b53eb5b932deb408a5b7@167.235.216.230:27003,b1d278873767fad599ebf710f840d90c93e8caeb@95.111.249.160:26656,839088f5507a45d1cee03739f741d87749868009@198.244.165.175:16656,7b4cd4197afd6851abdf0875bfb3e348df8b03cc@65.109.61.50:26656
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.juno/config/config.toml
 ```
 
@@ -38,7 +38,7 @@ curl -o - -L https://juno.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C $H
 ## State sync
 
 ```
-RPC="http://provider.palmito.duckdns.org:32105"
+RPC="http://provider.palmito.duckdns.org:31237"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
