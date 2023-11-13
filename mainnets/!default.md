@@ -16,7 +16,7 @@
 
 **API:** ```https://.declab.pro```
 
-**Peer:** ```ID@ADDRESS:PORT```
+**Peer:** ```d85b6e290e57701f5b816baa01b6a286c14f9400@ADDRESS:PORT```
 
 ```
 PEERS=
