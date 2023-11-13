@@ -1,5 +1,7 @@
 # Akash Network
 
+![](/assets/banner.png)
+
 |[Akash site](https://akash.network/)|[Akash Discord](https://discord.akash.network/)|[Akash Github](https://github.com/akash-network)|
 |:--:|:--:|:--:|
 |[Akash Telegram EN](https://t.me/AkashNW)|[Akash Telegram RU](https://t.me/akash_ru)|[Akash X](https://twitter.com/akashnet_)|
