@@ -1,4 +1,11 @@
 # Decloud Nodes Lab
 
-Open source application development team and professional PoS validator. In our work we strive to use only decentralized solutions.
-Our infrastructure is deployed in the Akash Network decentralized cloud.
+Open source application development team and professional PoS validator. 
+
+In our work we to use **only** decentralized solutions:
+
+- Infrastructure: [Akash Network](https://akash.network/)
+- Сode repository: [Gitopia](https://gitopia.com/home)
+- Publications and articles: [Scripta](https://scripta.network/)
+
+![](/assets/BANNER_TWITTER.png)
