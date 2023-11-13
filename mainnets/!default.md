@@ -1,5 +1,7 @@
 # Project name
 
+![](/assets/banner.png)
+
 |[Site]()|[Discord]()|[Github]()|
 |:--:|:--:|:--:|
 |[Telegram]()|[Medium]()|[X]()|
