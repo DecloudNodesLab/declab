@@ -8,15 +8,24 @@
 
 ## Endpoints
 
+|[**RPC**](https://.declab.pro/rpc)|[**API**](https://.declab.pro)|
+|:--:|:--:|
+
 **Genesis:** ```https://.declab.pro/genesis.json```
+
+```
+wget -O genesis.json https://.declab.pro/genesis.json --inet4-only
+mv genesis.json ~/.FOLDER/config
+```
 
 **Addrbook:** ```https://.declab.pro/addrbook.json```
 
-**RPC:** ```https://.declab.pro/rpc```
+```
+wget -O addrbook.json https://.declab.pro/addrbook.json --inet4-only
+mv addrbook.json ~/.FOLDER/config
+```
 
-**API:** ```https://.declab.pro```
-
-**Peer:** ```ID@ADDRESS:PORT```
+**Peer:** ```d85b6e290e57701f5b816baa01b6a286c14f9400@ADDRESS:PORT```
 
 ```
 PEERS=
