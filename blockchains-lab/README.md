@@ -1,2 +1,0 @@
-# Blockchains Lab
-
