@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/23629420/219872517-2adc32b1-5f64-4d48-9a81-1e2ef6b01a53.png)
 
 **Product documentation:**
-| [Site 3Proxy](https://3proxy.ru/) | [GitHub 3Proxy](https://github.com/3proxy) |
+| [**Site 3Proxy**](https://3proxy.ru/) | [**GitHub 3Proxy**](https://github.com/3proxy) |
 |:--:|:--:|
 
 ## 3proxy deploy.
