@@ -8,6 +8,9 @@
 
 ## Endpoints
 
+|[**RPC**](https://juno.declab.pro/rpc)|[**API**](https://juno.declab.pro)|
+|:--:|:--:|
+
 **Genesis:** ```https://juno.declab.pro/genesis.json```
 
 ```
@@ -21,9 +24,6 @@ mv genesis.json ~/.juno/config
 wget -O addrbook.json https://juno.declab.pro/addrbook.json --inet4-only
 mv addrbook.json ~/.juno/config
 ```
-
-|[**RPC**](https://juno.declab.pro/rpc)|[**API**](https://juno.declab.pro)|
-|:--:|:--:|
 
 **Peer:** ```"d85b6e290e57701f5b816baa01b6a286c14f9400@provider.palmito.duckdns.org:30786"```
 
