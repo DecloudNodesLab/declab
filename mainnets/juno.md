@@ -1,5 +1,7 @@
 # Juno
 
+![](/assets/banner.png)
+
 |[Site](https://www.junonetwork.io/)|[Discord](https://discord.gg/mcHpbvjYBA)|[Github](https://github.com/CosmosContracts)|
 |:--:|:--:|:--:|
 |[Telegram](https://t.me/JunoNetwork)|[Medium](https://docs.junonetwork.io/juno/readme)|[X](https://twitter.com/JunoNetwork)|
