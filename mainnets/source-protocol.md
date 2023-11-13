@@ -16,10 +16,10 @@
 
 **API:** ```https://source.declab.pro```
 
-**Peer:** ```a3ec1436a7645cf40ac9e1389e4035367be2da1f@provider.dcnorse.ddns.net:30576```
+**Peer:** ```5dd97b08bb47ec2955a1afff19873a8734d6400f@provider.nmfakash.uk:30265```
 
 ```
-PEERS=a3ec1436a7645cf40ac9e1389e4035367be2da1f@provider.dcnorse.ddns.net:305765954580c1fdb1faddd834a1632d495186e1cb06f@75.119.146.181:26656,8b7fd04ce47825b030daf93a20ed63a5422c6471@65.109.94.250:30656,0107ac60e43f3b3d395fea706cb54877a3241d21@35.87.85.162:26656,94ddb595c7a4cca5bc9d8026b310837db5fdb261@54.90.73.200:26656,79adf04741f4a019684efc73e42467cb7d6d3a69@148.251.19.41:25656
+PEERS=5dd97b08bb47ec2955a1afff19873a8734d6400f@provider.nmfakash.uk:30265,5954580c1fdb1faddd834a1632d495186e1cb06f@75.119.146.181:26656,8b7fd04ce47825b030daf93a20ed63a5422c6471@65.109.94.250:30656,0107ac60e43f3b3d395fea706cb54877a3241d21@35.87.85.162:26656,94ddb595c7a4cca5bc9d8026b310837db5fdb261@54.90.73.200:26656,79adf04741f4a019684efc73e42467cb7d6d3a69@148.251.19.41:25656
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.source/config/config.toml
 ```
 
@@ -38,7 +38,7 @@ curl -o - -L https://source.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C 
 ## State sync
 
 ```
-RPC="http://provider.dcnorse.ddns.net:30293"
+RPC="http://provider.nmfakash.uk:32221"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
