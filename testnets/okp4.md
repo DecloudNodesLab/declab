@@ -1,5 +1,7 @@
 # OKP4
 
+![](/assets/banner.png)
+
 |[OKP4 Site](https://okp4.network/)|[Discord](https://discord.gg/okp4)|[Github](https://github.com/okp4)|
 |:--:|:--:|:--:|
 |[Telegram](https://t.me/okp4network)|[Medium](https://blog.okp4.network/)|[X](https://twitter.com/OKP4_Protocol)|
