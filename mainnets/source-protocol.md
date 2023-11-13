@@ -8,6 +8,9 @@
 
 ## Endpoints
 
+|[**RPC**](https://source.declab.pro/rpc)|[**API**](https://source.declab.pro)|
+|:--:|:--:|
+
 **Genesis:** ```https://source.declab.pro/genesis.json```
 
 ```
@@ -21,9 +24,6 @@ mv genesis.json ~/.source/config
 wget -O addrbook.json https://source.declab.pro/addrbook.json --inet4-only
 mv addrbook.json ~/.source/config
 ```
-
-|[**RPC**](https://source.declab.pro/rpc)|[**API**](https://source.declab.pro)|
-|:--:|:--:|
 
 **Peer:** ```d85b6e290e57701f5b816baa01b6a286c14f9400@provider.palmito.duckdns.org:30870```
 
