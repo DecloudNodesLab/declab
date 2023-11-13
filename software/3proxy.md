@@ -4,11 +4,8 @@
 **Product documentation:**
 | [Site 3Proxy](https://3proxy.ru/) | [GitHub 3Proxy](https://github.com/3proxy) |
 |:--:|:--:|
-___
 
-# English version
-
-### 3proxy deploy.
+## 3proxy deploy.
 
 Deploy [deploy.yml](https://gitopia.com/DecloudNodesLab/software/tree/master/3proxy/deploy.yml) **3proxy** with **Cloudmos** ([use instructions here](https://docs.declab.pro/guides/cloudmos)).
 
@@ -23,4 +20,4 @@ After the deployment is complete, specify the `provider.example.com` of the serv
 
 ![image](https://user-images.githubusercontent.com/23629420/188474288-826ba555-ed4f-4462-be65-3d66758d997e.png)
 
-## Thank you for using Akash Network
+**Thank you for using Akash Network!**
