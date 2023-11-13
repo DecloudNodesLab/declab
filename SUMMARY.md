@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Intro to Decloud Nodes Lab](README.md)
+* [**Decloud Nodes Lab**](README.md)
 * [Guides](guides/README.md)
   * [Cloudmos overview](guides/cloudmos.md)
   * [Cosmos SDK](guides/cosmos-sdk/README.md)
