@@ -1,5 +1,7 @@
 # Source Protocol
 
+![](/assets/banner.png)
+
 |[Site](https://www.sourceprotocol.io/)|[Discord](https://discord.gg/VbwdjqYjzr)|[Github](https://github.com/Source-Protocol-Cosmos)|
 |:--:|:--:|:--:|
 |[Telegram](https://t.me/SourceProtocol)|[Medium](https://docs.sourceprotocol.io/)|[X](https://twitter.com/SourceProtocol_)|
