@@ -14,6 +14,7 @@
     * [Empower](mainnets/empower.md)
     * [Source](mainnets/source-protocol.md)
     * [Juno](mainnets/juno.md)
+    * [Vidulum](mainnets/vidulum.md)
   * [Testnets](testnets/README.md)
     * [Akash Network(Sandbox)](testnets/akash\_sandbox.md)
     * [OKP4](testnets/okp4.md)
