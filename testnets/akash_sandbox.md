@@ -16,10 +16,10 @@
 
 **API:** ```https://akash-sandbox.declab.pro```
 
-**Peer:** ```a8d94ea78624d3559d6df3e31c6a884ee55439e2@provider.dcnorse.ddns.net:31848```
+**Peer:** ```d85b6e290e57701f5b816baa01b6a286c14f9400@provider.palmito.duckdns.org:30637```
 
 ```
-PEERS=a8d94ea78624d3559d6df3e31c6a884ee55439e2@provider.dcnorse.ddns.net:31848,e06a303953a66de205d35e6ab1f17c0dc035a516@p2p.sandbox-01.aksh.pw:26656,df9dbde281cc2b64137423f9fabac9f0ef70b3bc@104.21.78.218:30592,178aceed035d9310482bc42e0aa1c0e4af7693e8@162.55.245.144:12010
+PEERS=d85b6e290e57701f5b816baa01b6a286c14f9400@provider.palmito.duckdns.org:30637,e06a303953a66de205d35e6ab1f17c0dc035a516@p2p.sandbox-01.aksh.pw:26656,df9dbde281cc2b64137423f9fabac9f0ef70b3bc@104.21.78.218:30592,178aceed035d9310482bc42e0aa1c0e4af7693e8@162.55.245.144:12010
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.akash/config/config.toml
 ```
 
@@ -38,7 +38,7 @@ curl -o - -L https://akash-sandbox.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar
 ## State sync
 
 ```
-RPC="http://provider.dcnorse.ddns.net:30424"
+RPC="http://provider.palmito.duckdns.org:30760"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
