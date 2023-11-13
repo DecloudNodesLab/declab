@@ -7,6 +7,9 @@
 
 ## Endpoints
 
+|[**RPC**](https://empower.declab.pro/rpc)|[**API**](https://empower.declab.pro)|
+|:--:|:--:|
+
 **Genesis:** ```https://empower.declab.pro/genesis.json```
 
 ```
@@ -20,9 +23,6 @@ mv genesis.json ~/.empowerchain/config
 wget -O addrbook.json https://empower.declab.pro/addrbook.json --inet4-only
 mv addrbook.json ~/.empowerchain/config
 ```
-
-|[**RPC**](https://empower.declab.pro/rpc)|[**API**](https://empower.declab.pro)|
-|:--:|:--:|
 
 **Peer:** ```d85b6e290e57701f5b816baa01b6a286c14f9400@provider.nmfakash.uk:31298```
 
