@@ -27,10 +27,10 @@ wget -O addrbook.json https://okp4.declab.pro/addrbook.json --inet4-only
 mv addrbook.json ~/.okp4d/config
 ```
 
-**Peer:** ```d85b6e290e57701f5b816baa01b6a286c14f9400@provider.d3akash.cloud:32164```
+**Peer:** ```d85b6e290e57701f5b816baa01b6a286c14f9400@provider.nmfakash.uk:30334```
 
 ```
-PEERS=d85b6e290e57701f5b816baa01b6a286c14f9400@provider.d3akash.cloud:32164,f7e481df45bfbe62ea0553f5f6da34eaf4f688c3@194.34.232.225:26656,3c805c2dead7b7a3a1d3ba2399d4d62153322413@65.108.2.41:36656,854cc8b83a48ba4394c1940b57d0f42ec013e033@38.242.251.204:26656,a98484ac9cb8235bd6a65cdf7648107e3d14dab4@116.202.231.58:13656,f045c5324e03d54f96285a33130d3886457e18be@46.4.81.204:49656
+PEERS=d85b6e290e57701f5b816baa01b6a286c14f9400@provider.nmfakash.uk:30334,f7e481df45bfbe62ea0553f5f6da34eaf4f688c3@194.34.232.225:26656,3c805c2dead7b7a3a1d3ba2399d4d62153322413@65.108.2.41:36656,854cc8b83a48ba4394c1940b57d0f42ec013e033@38.242.251.204:26656,a98484ac9cb8235bd6a65cdf7648107e3d14dab4@116.202.231.58:13656,f045c5324e03d54f96285a33130d3886457e18be@46.4.81.204:49656
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.okp4d/config/config.toml
 ```
 
@@ -49,7 +49,7 @@ curl -o - -L https://okp4.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C $H
 ## State sync
 
 ```
-RPC="provider.d3akash.cloud:31296"
+RPC="http://provider.nmfakash.uk:32347"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
