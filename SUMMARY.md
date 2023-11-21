@@ -16,7 +16,6 @@
     * [Juno](mainnets/juno.md)
     * [Vidulum](mainnets/vidulum.md)
   * [Testnets](testnets/README.md)
-    * [Akash Network(Sandbox)](testnets/akash\_sandbox.md)
     * [Lava](testnets/lava.md)
 * [Software](software/README.md)
   * [3proxy](software/3proxy.md)
