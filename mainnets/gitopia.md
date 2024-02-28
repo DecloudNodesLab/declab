@@ -10,20 +10,20 @@
 
 ## Endpoints
 
-|[**RPC**](https://gitopia.declab.pro:26614)|[**API**](https://gitopia.declab.pro:1312)|
+|[**RPC**](http://gitopia.declab.pro:26614)|[**API**](http://gitopia.declab.pro:1312)|
 |:--:|:--:|
 
-**Genesis:** ```https://gitopia.declab.pro/genesis.json```
+**Genesis:** ```http://gitopia.declab.pro/genesis.json```
 
 ```
-wget -O genesis.json https://gitopia.declab.pro/genesis.json --inet4-only
+wget -O genesis.json http://gitopia.declab.pro/genesis.json --inet4-only
 mv genesis.json ~/.gitopia/config
 ```
 
-**Addrbook:** ```https://gitopia.declab.pro/addrbook.json```
+**Addrbook:** ```http://gitopia.declab.pro/addrbook.json```
 
 ```
-wget -O addrbook.json https://gitopia.declab.pro/addrbook.json --inet4-only
+wget -O addrbook.json http://gitopia.declab.pro/addrbook.json --inet4-only
 mv addrbook.json ~/.gitopia/config
 ```
 
@@ -36,20 +36,20 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.g
 
 ## Snapshot 
 
-**Link:** ```https://gitopia.declab.pro/latest.tar.lz4```
+**Link:** ```http://gitopia.declab.pro/latest.tar.lz4```
 
 ```
 # Reset tendermint chain
 gitopiad tendermint unsafe-reset-all
 
 # Download and unpack the archive
-curl -o - -L https://gitopia.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.gitopia
+curl -o - -L http://gitopia.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.gitopia
 ```
 
 ## State sync
 
 ```
-RPC="https://gitopia.declab.pro:26614"
+RPC="http://gitopia.declab.pro:26614"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
