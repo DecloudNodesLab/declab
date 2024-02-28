@@ -10,7 +10,7 @@
 
 ## Endpoints
 
-|[**RPC**](https://empower.declab.pro:26620)|[**API**](https://empower.declab.pro:1313)|
+|[**RPC**](http://empower.declab.pro:26620)|[**API**](http://empower.declab.pro:1313)|
 |:--:|:--:|
 
 **Genesis:** ```http://empower.declab.pro/genesis.json```
