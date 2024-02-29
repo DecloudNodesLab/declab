@@ -27,7 +27,7 @@ wget -O addrbook.json http://juno.declab.pro/addrbook.json --inet4-only
 mv addrbook.json ~/.juno/config
 ```
 
-**Peer:** ```"73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@juno.declab.pro:26624"```
+**Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@juno.declab.pro:26624```
 
 ```
 PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@juno.declab.pro:26624,0edf09d33c9f5429c7539f11a56e1e0ab8981529@144.217.158.129:26656,07191cd1f1968bd21373b53eb5b932deb408a5b7@167.235.216.230:27003,b1d278873767fad599ebf710f840d90c93e8caeb@95.111.249.160:26656,839088f5507a45d1cee03739f741d87749868009@198.244.165.175:16656,7b4cd4197afd6851abdf0875bfb3e348df8b03cc@65.109.61.50:26656
