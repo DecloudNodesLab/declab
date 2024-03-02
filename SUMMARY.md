@@ -13,7 +13,6 @@
     * [Gitopia](mainnets/gitopia.md)
     * [Empower](mainnets/empower.md)
     * [Source](mainnets/source-protocol.md)
-    * [Juno](mainnets/juno.md)
     * [Vidulum](mainnets/vidulum.md)
   * [Testnets](testnets/README.md)
     * [Lava](testnets/lava.md)
