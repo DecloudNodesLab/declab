@@ -10,7 +10,7 @@
 
 ## Endpoints
 
-|[**RPC**](https://source.declab.pro:26611)|[**API**](https://source.declab.pro/api)|
+|[**RPC**](https://source.declab.pro:26611)|[**API**](https://source.declab.pro)|
 |:--:|:--:|
 
 **Genesis:** ```https://source.declab.pro/genesis.json```
