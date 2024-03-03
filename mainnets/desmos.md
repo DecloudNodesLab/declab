@@ -6,7 +6,7 @@
 |:--:|:--:|:--:|
 |[Medium](https://medium.com/desmosnetwork)|[Instagram](https://instagram.com/desmosnetwork)|[X](https://twitter.com/desmosnetwork)|
 |[Guide](https://services.declab.pro/guides)|[Deploy file](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects/Desmos/desmos_mainnet.yml)|[Delegate to us](https://restake.app/desmos/desmosvaloper1fkpnxtn4nvm27zkpyuvcz3rpa9rzxm70q4v8sn)|
-
+|[]()|[EXPLORER](https://explorer.declab.pro/desmos)|[]()|
 
 ## Endpoints
 
