@@ -10,46 +10,44 @@
 
 ## Endpoints
 
-|[**RPC**](https://source.declab.pro:26611)|[**API**](https://source.declab.pro:1311)|
+|[**RPC**](https://source.declab.pro:26611)|[**API**](https://source.declab.pro/api)|
 |:--:|:--:|
 
-**Genesis:** ```http://source.declab.pro/genesis.json```
+**Genesis:** ```https://source.declab.pro/genesis.json```
 
 ```
-wget -O genesis.json http://source.declab.pro/genesis.json --inet4-only
-mv genesis.json ~/.source/config
+wget -O ~/.source/config/genesis.json https://source.declab.pro/genesis.json --inet4-only
 ```
 
-**Addrbook:** ```http://source.declab.pro/addrbook.json```
+**Addrbook:** ```https://source.declab.pro/addrbook.json```
 
 ```
-wget -O addrbook.json http://source.declab.pro/addrbook.json --inet4-only
-mv addrbook.json ~/.source/config
+wget -O ~/.source/config/addrbook.json https://source.declab.pro/addrbook.json --inet4-only
 ```
 
 **Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@source.declab.pro:26612```
 
 ```
 PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@source.declab.pro:26612,5954580c1fdb1faddd834a1632d495186e1cb06f@75.119.146.181:26656,8b7fd04ce47825b030daf93a20ed63a5422c6471@65.109.94.250:30656,0107ac60e43f3b3d395fea706cb54877a3241d21@35.87.85.162:26656,94ddb595c7a4cca5bc9d8026b310837db5fdb261@54.90.73.200:26656,79adf04741f4a019684efc73e42467cb7d6d3a69@148.251.19.41:25656
-sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.source/config/config.toml
+sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.source/config/config.toml
 ```
 
 ## Snapshot 
 
-**Link:** ```http://source.declab.pro/latest.tar.lz4```
+**Link:** ```https://source.declab.pro/latest.tar.lz4```
 
 ```
 # Reset tendermint chain
 sourced tendermint unsafe-reset-all
 
 # Download and unpack the archive
-curl -o - -L http://source.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.source
+curl -o - -L https://source.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C ~/.source
 ```
 
 ## State sync
 
 ```
-RPC="http://source.declab.pro:26611"
+RPC="https://source.declab.pro:26611"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
@@ -58,5 +56,5 @@ TRUST_HASH=$(curl -s "$RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.
 sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
 s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$RPC,$RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
-s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.source/config/config.toml
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" ~/.source/config/config.toml
 ```
