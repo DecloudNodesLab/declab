@@ -7,6 +7,8 @@
 |[Telegram](https://t.me/Gitopia)|[Medium](https://gitopia.com/gitopia/gitopia-docs)|[X](https://twitter.com/gitopiaDAO)|
 |[Guide](https://services.declab.pro/guides)|[Deploy file](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects/Gitopia/gitopia_mainnet_deploy.yml)|[Delegate to us](https://restake.app/gitopia/gitopiavaloper1nuphu4p06dlgx2se0w58z5c7yv00r5gl37qcrm)|
 
+[Gitopia EXPLORER](https://explorer.declab.pro/Gitopia)|
+|:--:|
 
 ## Endpoints
 
