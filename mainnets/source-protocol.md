@@ -7,6 +7,8 @@
 |[Telegram](https://t.me/SourceProtocol)|[Medium](https://docs.sourceprotocol.io/)|[X](https://twitter.com/SourceProtocol_)|
 |[Guide](https://services.declab.pro/guides)|[Deploy file](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects/Source/source_mainnet_deploy.yml)|[Delegate to us](https://restake.app/source/sourcevaloper126erf9dmm4e3fs0suk9lnv24wudswkm3ekfqfh)|
 
+[Source EXPLORER](https://explorer.declab.pro/Source)|
+|:--:|
 
 ## Endpoints
 
