@@ -9,7 +9,7 @@
     * [Create priv\_validator\_key.json](guides/CosmosSDK/create\_validator\_key.md)
 * [Blockchains Lab](blockchains-lab/README.md)
   * [Mainnets](blockchains-lab/mainnets/README.md)
-    * [Akash Network](mainnets/akash.md)
+    * [Desmos](mainnets/desmos.md)
     * [Gitopia](mainnets/gitopia.md)
     * [Empower](mainnets/empower.md)
     * [Source](mainnets/source-protocol.md)
