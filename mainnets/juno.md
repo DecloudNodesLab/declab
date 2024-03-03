@@ -10,7 +10,7 @@
 
 ## Endpoints
 
-|[**RPC**](http://juno.declab.pro:26622)|[**API**](http://juno.declab.pro:1314)|
+|[**RPC**](http://juno.declab.pro:26622)|[**API**](http://juno.declab.pro)|
 |:--:|:--:|
 
 **Genesis:** ```http://juno.declab.pro/genesis.json```
