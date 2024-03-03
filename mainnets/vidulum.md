@@ -10,7 +10,7 @@
 
 ## Endpoints
 
-|[**RPC**](https://vidulum.declab.pro:26625)|[**API**](https://vidulum.declab.pro/api)|
+|[**RPC**](https://vidulum.declab.pro:26625)|[**API**](https://vidulum.declab.pro)|
 |:--:|:--:|
 
 **Genesis:** ```https://vidulum.declab.pro/genesis.json```
