@@ -10,7 +10,7 @@
 
 ## Endpoints
 
-|[**RPC**](https://gitopia.declab.pro:26614)|[**API**](https://gitopia.declab.pro/api)|
+|[**RPC**](https://gitopia.declab.pro:26614)|[**API**](https://gitopia.declab.pro)|
 |:--:|:--:|
 
 **Genesis:** ```https://gitopia.declab.pro/genesis.json```
