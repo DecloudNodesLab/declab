@@ -31,8 +31,8 @@ wget -O ~/.kyve/config/addrbook.json https://kyve.declab.pro/addrbook.json --ine
 **Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@kyve.declab.pro:26633```
 
 ```
-PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@desmos.declab.pro:26633
-sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.desmos/config/config.toml
+PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@kyve.declab.pro:26633
+sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.kyve/config/config.toml
 ```
 
 ## Snapshot 
