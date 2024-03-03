@@ -8,7 +8,7 @@
 |[Guide](https://services.declab.pro/guides)|[Deploy file](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects/Desmos/desmos_mainnet.yml)|[Delegate to us](https://restake.app/desmos/desmosvaloper1fkpnxtn4nvm27zkpyuvcz3rpa9rzxm70q4v8sn)|
 
 
-[EXPLORER](https://explorer.declab.pro/Desmos)|
+[Desmos EXPLORER](https://explorer.declab.pro/Desmos)|
 |:--:|
 
 ## Endpoints
