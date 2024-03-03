@@ -7,6 +7,8 @@
 |[Telegram](https://t.me/empowerchain)|[Medium](https://docs.empowerchain.io/)|[X](https://twitter.com/empowerchain_io)|
 |[Guide](https://services.declab.pro/guides)|[Deploy file](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects/Empower/empower_mainnet.yml)|[Delegate to us](https://restake.app/empowerchain/empowervaloper1ax4c40gn3s74xxm75g6cmts3fw7rq64grp0c0w)|
 
+[Empower EXPLORER](https://explorer.declab.pro/Empower)|
+|:--:|
 
 ## Endpoints
 
