@@ -10,21 +10,19 @@
 
 ## Endpoints
 
-|[**RPC**](http://empower.declab.pro:26620)|[**API**](http://empower.declab.pro:1313)|
+|[**RPC**](https://empower.declab.pro:26620)|[**API**](https://empower.declab.pro/api)|
 |:--:|:--:|
 
-**Genesis:** ```http://empower.declab.pro/genesis.json```
+**Genesis:** ```https://empower.declab.pro/genesis.json```
 
 ```
-wget -O genesis.json http://empower.declab.pro/genesis.json --inet4-only
-mv genesis.json ~/.empowerchain/config
+wget -O  ~/.empowerchain/config/genesis.json https://empower.declab.pro/genesis.json --inet4-only
 ```
 
-**Addrbook:** ```http://empower.declab.pro/addrbook.json```
+**Addrbook:** ```https://empower.declab.pro/addrbook.json```
 
 ```
-wget -O addrbook.json http://empower.declab.pro/addrbook.json --inet4-only
-mv addrbook.json ~/.empowerchain/config
+wget -O ~/.empowerchain/config/addrbook.json https://empower.declab.pro/addrbook.json --inet4-only
 ```
 
 **Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@empower.declab.pro:26621```
@@ -36,19 +34,19 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.e
 
 ## Snapshot 
 
-**Link:** ```http://empower.declab.pro/latest.tar.lz4```
+**Link:** ```https://empower.declab.pro/latest.tar.lz4```
 
 ```
 # Reset tendermint chain
 empowerd tendermint unsafe-reset-all
 # Download and unpack the archive
-curl -o - -L http://empower.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.empowerchain
+curl -o - -L https://empower.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.empowerchain
 ```
 
 ## State sync
 
 ```
-RPC="http://empower.declab.pro:26620"
+RPC="https://empower.declab.pro:26620"
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
