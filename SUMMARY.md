@@ -12,6 +12,7 @@
     * [Desmos](mainnets/desmos.md)
     * [Gitopia](mainnets/gitopia.md)
     * [Empower](mainnets/empower.md)
+    * [Kyve](mainnets/kyve.md)
     * [Source](mainnets/source-protocol.md)
     * [Vidulum](mainnets/vidulum.md)
   * [Testnets](testnets/README.md)
