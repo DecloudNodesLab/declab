@@ -7,6 +7,8 @@
 |[Youtube](https://www.youtube.com/channel/UCNd92ZViZweu6zz5ydt_wrQ)|[Reddit](https://www.reddit.com/r/VidulumOfficial/)|[X](https://twitter.com/VidulumApp)|
 |[Guide](https://services.declab.pro/guides)|[Deploy file](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects/Vidulum/vidulum_deploy.yml)|[Delegate to us](https://restake.app/vidulum/vdlvaloper1nuphu4p06dlgx2se0w58z5c7yv00r5gle0h5gs)|
 
+[Vidulum EXPLORER](https://explorer.declab.pro/Vidulum)|
+|:--:|
 
 ## Endpoints
 
