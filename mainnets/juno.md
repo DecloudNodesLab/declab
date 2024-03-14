@@ -8,7 +8,7 @@
 |[Guide](https://services.declab.pro/guides)|[Deploy file](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects/Juno/juno_deploy.yml)|[Delegate to us](https://restake.app/juno/junovaloper1ax4c40gn3s74xxm75g6cmts3fw7rq64gweqg8q)|
 
 
-[Akash Network EXPLORER](https://explorer.declab.pro/Akash)|
+[Juno EXPLORER](https://explorer.declab.pro/Juno)|
 |:--:|
 
 ## Endpoints
