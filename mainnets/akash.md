@@ -20,15 +20,13 @@
 **Genesis:** ```https://akash.declab.pro/genesis.json```
 
 ```
-wget -O genesis.json https://akash.declab.pro/genesis.json --inet4-only
-mv genesis.json ~/.akash/config
+wget -O ~/.akash/config/genesis.json https://akash.declab.pro/genesis.json --inet4-only
 ```
 
 **Addrbook:** ```https://akash.declab.pro/addrbook.json```
 
 ```
-wget -O addrbook.json https://akash.declab.pro/addrbook.json --inet4-only
-mv addrbook.json ~/.akash/config
+wget -O ~/.akash/config/addrbook.json https://akash.declab.pro/addrbook.json --inet4-only
 ```
 
 **Peer:** ```d85b6e290e57701f5b816baa01b6a286c14f9400@akash.declab.pro:26606```
