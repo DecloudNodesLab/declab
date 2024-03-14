@@ -12,6 +12,7 @@
     * [Akash Network](mainnets/akash.md)
     * [Desmos](mainnets/desmos.md)
     * [Gitopia](mainnets/gitopia.md)
+    * [Juno](mainnets/juno.md)
     * [Empower](mainnets/empower.md)
     * [Realio Network](mainnets/realio.md)
     * [Kyve](mainnets/kyve.md)
