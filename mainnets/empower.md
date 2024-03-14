@@ -12,7 +12,7 @@
 
 ## Endpoints
 
-|[**RPC**](https://empower.declab.pro:26620)|[**API**](https://empower.declab.pro)|
+|[**RPC**](https://empower.declab.pro:26607)|[**API**](https://empower.declab.pro)|
 |:--:|:--:|
 
 **Genesis:** ```https://empower.declab.pro/genesis.json```
@@ -27,10 +27,10 @@ wget -O  ~/.empowerchain/config/genesis.json https://empower.declab.pro/genesis.
 wget -O ~/.empowerchain/config/addrbook.json https://empower.declab.pro/addrbook.json --inet4-only
 ```
 
-**Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@empower.declab.pro:26621```
+**Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@empower.declab.pro:26609```
 
 ```
-PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@empower.declab.pro:26621,bb8f0eb3ce0e8ad9043f884db42865cfd293851f@81.0.218.135:21956,901ce8eedf012ec5c74bf040f4901a42e4c66e0c@142.132.193.194:26656,ee0973d050e077a2f8cb7e90969560b0fe255929@148.113.159.22:17456,1ad467e3c21a7c30a9e1dc68166570f40b467cad@151.80.27.157:26656,f7eb23352efa7aba7ba9aa56fe034ede139deab3@65.109.116.119:16856
+PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@empower.declab.pro:26609,bb8f0eb3ce0e8ad9043f884db42865cfd293851f@81.0.218.135:21956,901ce8eedf012ec5c74bf040f4901a42e4c66e0c@142.132.193.194:26656,ee0973d050e077a2f8cb7e90969560b0fe255929@148.113.159.22:17456,1ad467e3c21a7c30a9e1dc68166570f40b467cad@151.80.27.157:26656,f7eb23352efa7aba7ba9aa56fe034ede139deab3@65.109.116.119:16856
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.empowerchain/config/config.toml
 ```
 
@@ -48,7 +48,7 @@ curl -o - -L https://empower.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C
 ## State sync
 
 ```
-RPC="https://empower.declab.pro:26620"
+RPC="https://empower.declab.pro:26607"
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
