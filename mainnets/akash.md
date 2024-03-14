@@ -8,6 +8,10 @@
 |[Guide](https://services.declab.pro/guides)|[Deploy file](https://gitopia.com/DecloudNodesLab/cosmos-universe/tree/master/projects/Akash_Network/akash_mainnet_deploy.yml)|[Delegate to us](https://restake.app/akash/akashvaloper1ax4c40gn3s74xxm75g6cmts3fw7rq64gq0kaj4a)|
 
 
+[Akash Network EXPLORER](https://explorer.declab.pro/Akash)|
+|:--:|
+
+
 ## Endpoints
 
 |[**RPC**](https://akash.declab.pro:26601)|[**API**](https://akash.declab.pro)|
