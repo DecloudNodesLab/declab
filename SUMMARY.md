@@ -1,6 +1,6 @@
 # Table of contents
 
-* [**Decloud Nodes Lab**](README.md)
+* [Decloud Nodes Lab](README.md)
 * [Guides](guides/README.md)
   * [Cloudmos overview](guides/cloudmos.md)
   * [Cosmos SDK](guides/cosmos-sdk/README.md)
@@ -18,7 +18,7 @@
     * [Kyve](mainnets/kyve.md)
     * [Source](mainnets/source-protocol.md)
     * [Vidulum](mainnets/vidulum.md)
-  * [Testnets](testnets/README.md)
+  * [Testnets](blockchains-lab/testnets/README.md)
     * [Lava](testnets/lava.md)
 * [Software](software/README.md)
   * [3proxy](software/3proxy.md)
