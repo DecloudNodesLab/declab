@@ -13,7 +13,7 @@
 
 ## Endpoints
 
-|[**RPC**](https://desmos.declab.pro:26628)|[**API**](https://vidulum.declab.pro)|
+|[**RPC**](https://desmos.declab.pro:26613)|[**API**](https://vidulum.declab.pro)|
 |:--:|:--:|
 
 **Genesis:** ```https://desmos.declab.pro/genesis.json```
@@ -28,10 +28,10 @@ wget -O ~/.desmos/config/genesis.json https://desmos.declab.pro/genesis.json --i
 wget -O ~/.desmos/config/addrbook.json https://desmos.declab.pro/addrbook.json --inet4-only
 ```
 
-**Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@desmos.declab.pro:26630```
+**Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@desmos.declab.pro:26615```
 
 ```
-PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@desmos.declab.pro:26630
+PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@desmos.declab.pro:26615
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.desmos/config/config.toml
 ```
 
@@ -50,7 +50,7 @@ curl -o - -L https://desmos.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C 
 ## State sync
 
 ```
-RPC="https://desmos.declab.pro:26628"
+RPC="https://desmos.declab.pro:26613"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
