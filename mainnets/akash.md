@@ -29,10 +29,10 @@ wget -O ~/.akash/config/genesis.json https://akash.declab.pro/genesis.json --ine
 wget -O ~/.akash/config/addrbook.json https://akash.declab.pro/addrbook.json --inet4-only
 ```
 
-**Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@akash.declab.pro:26606```
+**Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@akash.declab.pro:26603```
 
 ```
-PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@akash.declab.pro:26606,064b1c1a295ca9b3a1360283086f61705525aeed@192.175.53.243:26656,b9751d5a8b3c2f242b5de21c3d5ff6440d8765cd@52.30.142.144:26656,f31426d9fb39c2d97653722a34b4c72db71904c2@93.115.25.106:29656,37201c92625df2814a55129f73f10ab6aa2edc35@95.214.53.215:26696,34aa700c44f35abe8319428f173503ea7faee3b7@144.76.56.87:28656
+PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@akash.declab.pro:26603,064b1c1a295ca9b3a1360283086f61705525aeed@192.175.53.243:26656,b9751d5a8b3c2f242b5de21c3d5ff6440d8765cd@52.30.142.144:26656,f31426d9fb39c2d97653722a34b4c72db71904c2@93.115.25.106:29656,37201c92625df2814a55129f73f10ab6aa2edc35@95.214.53.215:26696,34aa700c44f35abe8319428f173503ea7faee3b7@144.76.56.87:28656
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.akash/config/config.toml
 ```
 
