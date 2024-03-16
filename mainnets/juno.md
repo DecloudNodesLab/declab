@@ -13,19 +13,19 @@
 
 ## Endpoints
 
-|[**RPC**](http://juno.declab.pro:26610)|[**API**](http://juno.declab.pro)|
+|[**RPC**](https://juno.declab.pro:26610)|[**API**](https://juno.declab.pro)|
 |:--:|:--:|
 
-**Genesis:** ```http://juno.declab.pro/genesis.json```
+**Genesis:** ```https://juno.declab.pro/genesis.json```
 
 ```
-wget -O ~/.juno/config/genesis.json http://juno.declab.pro/genesis.json --inet4-only
+wget -O ~/.juno/config/genesis.json https://juno.declab.pro/genesis.json --inet4-only
 ```
 
-**Addrbook:** ```http://juno.declab.pro/addrbook.json```
+**Addrbook:** ```https://juno.declab.pro/addrbook.json```
 
 ```
-wget -O  ~/.juno/config/addrbook.json http://juno.declab.pro/addrbook.json --inet4-only
+wget -O  ~/.juno/config/addrbook.json https://juno.declab.pro/addrbook.json --inet4-only
 ```
 
 **Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@juno.declab.pro:26612```
@@ -37,20 +37,20 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/
 
 ## Snapshot 
 
-**Link:** ```http://juno.declab.pro/latest.tar.lz4```
+**Link:** ```https://juno.declab.pro/latest.tar.lz4```
 
 ```
 # Reset tendermint chain
 junod tendermint unsafe-reset-all
 
 # Download and unpack the archive
-curl -o - -L http://juno.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C ~/.juno
+curl -o - -L https://juno.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C ~/.juno
 ```
 
 ## State sync
 
 ```
-RPC="juno.declab.pro:26610"
+RPC="https://juno.declab.pro:26610"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
