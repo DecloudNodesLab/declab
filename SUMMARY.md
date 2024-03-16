@@ -16,6 +16,7 @@
     * [Empower](mainnets/empower.md)
     * [Realio Network](mainnets/realio.md)
     * [Kyve](mainnets/kyve.md)
+    * [Sentinelhub](mainnets/sentinel.md)
     * [Source](mainnets/source-protocol.md)
     * [Vidulum](mainnets/vidulum.md)
   * [Testnets](blockchains-lab/testnets/README.md)
