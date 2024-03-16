@@ -22,7 +22,7 @@
 wget -O ~/.realio-network/config/genesis.json https://realio.declab.pro/genesis.json --inet4-only
 ```
 
-**Addrbook:** ```https://kyve.declab.pro/addrbook.json```
+**Addrbook:** ```https://realio.declab.pro/addrbook.json```
 
 ```
 wget -O ~/.realio-network/config/addrbook.json https://realio.declab.pro/addrbook.json --inet4-only
