@@ -14,6 +14,7 @@
     * [Gitopia](mainnets/gitopia.md)
     * [Juno](mainnets/juno.md)
     * [Empower](mainnets/empower.md)
+    * [Mars](mainnet/mars.md)
     * [Realio Network](mainnets/realio.md)
     * [Kyve](mainnets/kyve.md)
     * [Sentinelhub](mainnets/sentinel.md)
