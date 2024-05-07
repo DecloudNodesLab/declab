@@ -13,7 +13,7 @@
 
 ## Endpoints
 
-|[**RPC**](https://desmos.declab.pro:26613)|[**API**](https://vidulum.declab.pro)|
+|[**RPC**](https://desmos.declab.pro:26613)|[**API**](https://desmos.declab.pro)|
 |:--:|:--:|
 
 **Genesis:** ```https://desmos.declab.pro/genesis.json```
