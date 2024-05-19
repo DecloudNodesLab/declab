@@ -19,7 +19,6 @@
     * [Kyve Protocol](mainnets/kyve.md)
     * [Sentinelhub](mainnets/sentinel.md)
     * [Source](mainnets/source-protocol.md)
-    * [Vidulum](mainnets/vidulum.md)
   * [Testnets](blockchains-lab/testnets/README.md)
     * [Lava](testnets/lava.md)
 * [Software](software/README.md)
