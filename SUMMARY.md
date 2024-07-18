@@ -10,7 +10,6 @@
 * [Blockchains Lab](blockchains-lab/README.md)
   * [Mainnets](blockchains-lab/mainnets/README.md)
     * [Akash Network](mainnets/akash.md)
-    * [Desmos](mainnets/desmos.md)
     * [Empower](mainnets/empower.md)
     * [Gitopia](mainnets/gitopia.md)
     * [Juno](mainnets/juno.md)
