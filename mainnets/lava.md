@@ -1,4 +1,4 @@
-# Desmos
+# lava
 
 ![](/assets/banner.png)
 
