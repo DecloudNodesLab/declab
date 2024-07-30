@@ -14,6 +14,7 @@
     * [Gitopia](mainnets/gitopia.md)
     * [Juno](mainnets/juno.md)
     * [Mars Protocol](mainnets/mars.md)
+    * [Lava](mainnets/lava.md)
     * [Realio Network](mainnets/realio.md)
     * [Kyve Protocol](mainnets/kyve.md)
     * [Sentinelhub](mainnets/sentinel.md)
