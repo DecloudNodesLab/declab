@@ -12,7 +12,7 @@
 
 ## Endpoints
 
-|[**RPC**](https://lava-t.declab.pro:26631)|[**API**](https://lava-t.declab.pro)|
+|[**RPC**](https://lava-t.declab.pro:26601)|[**API**](https://lava-t.declab.pro)|
 |:--:|:--:|
 
 **Genesis:** ```https://lava-t.declab.pro/genesis.json```
@@ -27,10 +27,10 @@ wget -O ~/.lava/config/genesis.json https://lava-t.declab.pro/genesis.json --ine
 wget -O ~/.lava/config/addrbook.json https://lava-t.declab.pro/addrbook.json --inet4-only
 ```
 
-**Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@lava-t.declab.pro:26633```
+**Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@lava-t.declab.pro:26603```
 
 ```
-PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@lava-t.declab.pro:26633,c3bcd6779abf9bc703ff89d72f9aa91dc4b3068e@65.21.131.21:26656,40046fe63bdaa9efde27707b0d3de0bf84fedf80@86.111.48.158:26656,0d6983bcd192c0b4a0f61e6d849c152704e2f017@91.107.148.5:26656,3031bcee46e31081eb6ecb90df2dad6fc757bebc@95.217.57.232:56656,b3abed4b1ad82a3d2404c817b4eabf30ab36f6f6@185.250.36.187:17656
+PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@lava-t.declab.pro:26603,c3bcd6779abf9bc703ff89d72f9aa91dc4b3068e@65.21.131.21:26656,40046fe63bdaa9efde27707b0d3de0bf84fedf80@86.111.48.158:26656,0d6983bcd192c0b4a0f61e6d849c152704e2f017@91.107.148.5:26656,3031bcee46e31081eb6ecb90df2dad6fc757bebc@95.217.57.232:56656,b3abed4b1ad82a3d2404c817b4eabf30ab36f6f6@185.250.36.187:17656
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.lava/config/config.toml
 ```
 
@@ -49,7 +49,7 @@ curl -o - -L https://lava-t.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C 
 ## State sync
 
 ```
-RPC="https://lava-t.declab.pro:26631"
+RPC="https://lava-t.declab.pro:26601"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
