@@ -20,6 +20,7 @@
     * [Source](mainnets/source-protocol.md)
   * [Testnets](blockchains-lab/testnets/README.md)
     * [Lava](testnets/lava.md)
+    * [Akash Sandbox](testnets/sandbox.md)
 * [Software](software/README.md)
   * [3proxy](software/3proxy.md)
   * [V2RAY](software/v2ray.md)
