@@ -18,19 +18,19 @@
 
 **Genesis:** ```https://realio.declab.pro/genesis.json```
 
-```
+```shell
 wget -O ~/.realio-network/config/genesis.json https://realio.declab.pro/genesis.json --inet4-only
 ```
 
 **Addrbook:** ```https://realio.declab.pro/addrbook.json```
 
-```
+```shell
 wget -O ~/.realio-network/config/addrbook.json https://realio.declab.pro/addrbook.json --inet4-only
 ```
 
 **Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@realio.declab.pro:26624```
 
-```
+```shell
 PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@realio.declab.pro:26624
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.realio-network/config/config.toml
 ```
@@ -39,7 +39,7 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.reali
 
 **Link:** ```https://realio.declab.pro/latest.tar.lz4```
 
-```
+```shell
 # Reset tendermint chain
 realio-networkd tendermint unsafe-reset-all
 
@@ -49,7 +49,7 @@ curl -o - -L https://realio.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C 
 
 ## State sync
 
-```
+```shell
 RPC="https://realio.declab.pro:26622"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
