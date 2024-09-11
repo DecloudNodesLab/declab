@@ -15,21 +15,21 @@
 
 **Genesis:** ```https://akash-sandbox.declab.pro/genesis.json```
 
-```
+```shell
 wget -O genesis.json https://akash-sandbox.declab.pro/genesis.json --inet4-only
 mv genesis.json ~/.akash/config
 ```
 
 **Addrbook:** ```https://akash-sandbox.declab.pro/addrbook.json```
 
-```
+```shell
 wget -O addrbook.json https://akash-sandbox.declab.pro/addrbook.json --inet4-only
 mv addrbook.json ~/.akash/config
 ```
 
 **Peer:** ```d85b6e290e57701f5b816baa01b6a286c14f9400@provider.palmito.duckdns.org:30637```
 
-```
+```shell
 PEERS=d85b6e290e57701f5b816baa01b6a286c14f9400@provider.palmito.duckdns.org:30637,e06a303953a66de205d35e6ab1f17c0dc035a516@p2p.sandbox-01.aksh.pw:26656,df9dbde281cc2b64137423f9fabac9f0ef70b3bc@104.21.78.218:30592,178aceed035d9310482bc42e0aa1c0e4af7693e8@162.55.245.144:12010
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.akash/config/config.toml
 ```
@@ -38,7 +38,7 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.a
 
 **Link:** ```https://akash-sandbox.declab.pro/latest.tar.lz4```
 
-```
+```shell
 # Reset tendermint chain
 akash tendermint unsafe-reset-all
 
@@ -48,7 +48,7 @@ curl -o - -L https://akash-sandbox.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar
 
 ## State sync
 
-```
+```shell
 RPC="http://provider.palmito.duckdns.org:30760"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
