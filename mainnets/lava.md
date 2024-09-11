@@ -18,19 +18,19 @@
 
 **Genesis:** ```https://lava.declab.pro/genesis.json```
 
-```
+```shell
 wget -O ~/.lava/config/genesis.json https://lava.declab.pro/genesis.json --inet4-only
 ```
 
 **Addrbook:** ```https://lava.declab.pro/addrbook.json```
 
-```
+```shell
 wget -O ~/.lava/config/addrbook.json https://lava.declab.pro/addrbook.json --inet4-only
 ```
 
 **Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@lava.declab.pro:26615```
 
-```
+```shell
 PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@lava.declab.pro:26615
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.lava/config/config.toml
 ```
@@ -39,7 +39,7 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.lava/
 
 **Link:** ```https://lava.declab.pro/latest.tar.lz4```
 
-```
+```shell
 # Reset tendermint chain
 lava tendermint unsafe-reset-all
 
@@ -49,7 +49,7 @@ curl -o - -L https://lava.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C ~/
 
 ## State sync
 
-```
+```shell
 RPC="https://lava.declab.pro:26613"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
