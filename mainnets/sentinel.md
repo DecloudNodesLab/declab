@@ -19,19 +19,19 @@
 
 **Genesis:** ```https://sentinel.declab.pro/genesis.json```
 
-```
+```shell
 wget -O ~/.sentinelhub/config/genesis.json https://sentinel.declab.pro/genesis.json --inet4-only
 ```
 
 **Addrbook:** ```https://sentinel.declab.pro/addrbook.json```
 
-```
+```shell
 wget -O ~/.sentinelhub/config/addrbook.json https://sentinel.declab.pro/addrbook.json --inet4-only
 ```
 
 **Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@sentinel.declab.pro:26630```
 
-```
+```shell
 PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@sentinel.declab.pro:26630,0d9f4ae53eb69d4790e9633094b19e0ff18c6e82@5.10.24.84:26656,66d0d22dc5e1e542c200da1fc097dae5ea1f3b4e@195.201.175.156:17256,e323d088efd63c06f13922a452533a444f5cfb23@45.10.26.114:26656,d6d3b940785d0135e53e38bc4639e1cbce47e983@88.99.199.5:26656,5ace0e57784e34930360bf6cc00dd5265278f708@65.108.238.166:23956
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.sentinelhub/config/config.toml
 ```
@@ -40,7 +40,7 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.senti
 
 **Link:** ```https://sentinel.declab.pro/latest.tar.lz4```
 
-```
+```shell
 # Reset tendermint chain
 sentinelhub tendermint unsafe-reset-all
 
@@ -50,7 +50,7 @@ curl -o - -L https://sentinel.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -
 
 ## State sync
 
-```
+```shell
 RPC="https://sentinel.declab.pro:26628"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
