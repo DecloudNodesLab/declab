@@ -2,7 +2,7 @@
 
 * [Decloud Nodes Lab](README.md)
 * [Guides](guides/README.md)
-  * [Cloudmos overview](guides/cloudmos.md)
+  * [Cloudmos overview](guides/console_akash.md)
   * [Cosmos SDK](guides/cosmos-sdk/README.md)
     * [Deploy nodes (RPC,validator)](guides/CosmosSDK/deploy\_validator\_node.md)
     * [CLI commands](guides/CosmosSDK/commands.md)
