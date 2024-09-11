@@ -18,19 +18,19 @@
 
 **Genesis:** ```https://kyve.declab.pro/genesis.json```
 
-```
+```shell
 wget -O ~/.kyve/config/genesis.json https://kyve.declab.pro/genesis.json --inet4-only
 ```
 
 **Addrbook:** ```https://kyve.declab.pro/addrbook.json```
 
-```
+```shell
 wget -O ~/.kyve/config/addrbook.json https://kyve.declab.pro/addrbook.json --inet4-only
 ```
 
 **Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@kyve.declab.pro:26618```
 
-```
+```shell
 PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@kyve.declab.pro:26618
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.kyve/config/config.toml
 ```
@@ -39,7 +39,7 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.kyve/
 
 **Link:** ```https://kyve.declab.pro/latest.tar.lz4```
 
-```
+```shell
 # Reset tendermint chain
 kyved tendermint unsafe-reset-all
 
@@ -49,7 +49,7 @@ curl -o - -L https://kyve.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C ~/
 
 ## State sync
 
-```
+```shell
 RPC="https://kyve.declab.pro:26616"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
