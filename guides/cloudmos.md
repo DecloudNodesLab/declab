@@ -1,6 +1,6 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/219872517-2adc32b1-5f64-4d48-9a81-1e2ef6b01a53.png" </p>
   
-> An overview and guide to using the Cloudmos custom web user interface.
+> An overview and guide to using the console Akash custom web user interface.
 
 <div align="center">
   
@@ -12,7 +12,7 @@
 
 # Account connection and preparation for work.
 
-Login to [web UI Cloudmos](https://deploy.cloudmos.io/) using the Keplr app:
+Login to [web UI console Akash](https://console.akash.network) using the Keplr app:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221588325-7ef4f756-4706-4106-8a3a-839034782469.gif"</p>
 
@@ -37,7 +37,7 @@ ___
 
 # Test deployment
 
-***Cloudmos*** has ready-made ***manifest files (deploy.yml)***, they are located in the ```Templates``` tab, check out the offer of ready-made solutions:
+***Console Akash*** has ready-made ***manifest files (deploy.yml)***, they are located in the ```Templates``` tab, check out the offer of ready-made solutions:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221591869-b37798b8-76d6-476f-8c3d-ec8be35683db.png"</p>
 
@@ -49,7 +49,7 @@ Click ***Deploy***:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221592527-cc96d385-e682-4ad8-bd47-e2308f9116df.png"</p>
 
-***Cloudmos*** quickly checks for the presence of a certificate and ***5 AKT*** on the balance sheet, and opens the completed ***manifest window (deploy.yml)***, let's dwell on the contents of the manifest:
+***Console Akash*** quickly checks for the presence of a certificate and ***0.5 AKT*** on the balance sheet, and opens the completed ***manifest window (deploy.yml)***, let's dwell on the contents of the manifest:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221593433-2e94845d-3db2-4adf-acf8-672570b6340c.png"</p>
   
@@ -61,9 +61,9 @@ Section ```profiles``` (lines 13-22) here in the subsection ```resources``` we i
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221593892-f1385fd5-5d68-45e3-b74a-c0bec7a9e6bc.png"</p>
 
-We deposit ***5 AKT*** from our account, press ```DEPOSIT```:
+We deposit ***0.5 AKT*** from our account, press ```DEPOSIT```:
 
-Set the transaction fee and confirm it. At this stage, we have sent a capacity request to the network for our game container. We just have to wait for a response from providers with their offers and prices. ***Please note that 5 AKT have been deposited from your account***.
+Set the transaction fee and confirm it. At this stage, we have sent a capacity request to the network for our game container. We just have to wait for a response from providers with their offers and prices. ***Please note that 0.5 AKT have been deposited from your account***.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/221594641-9f02b27b-04b6-4459-9108-ebb852b40434.png"</p>
 
@@ -75,7 +75,7 @@ Information about your provider, rental cost, as well as an individual link to y
   
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/179998220-473b42ec-144f-4bff-b640-801fc727983b.png"</p>
 
-Great! It looks like you deployed the game to Akash Network! But you need something more than a game? Then go to the section describing the functionality of ***Cloudmos(Akashlytics)*** =)
+Great! It looks like you deployed the game to Akash Network! But you need something more than a game? Then go to the section describing the functionality of ***console Akash*** =)
   
 ___
   
@@ -123,7 +123,7 @@ After the deployment is closed, the balance of ***AKT*** will be returned to you
 ___
 
   
-# Overview of Cloudmos functionality.
+# Overview of console Akash functionality.
   
 ***Dashboard*** - Shows your current account details(1), current online lease status(2) and your active deployments(3).
 
