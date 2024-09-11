@@ -17,19 +17,19 @@
 
 **Genesis:** ```https://gitopia.declab.pro/genesis.json```
 
-```
+```shell
 wget -O  ~/.gitopia/config/genesis.json https://gitopia.declab.pro/genesis.json --inet4-only
 ```
 
 **Addrbook:** ```https://gitopia.declab.pro/addrbook.json```
 
-```
+```shell
 wget -O ~/.gitopia/config/addrbook.json https://gitopia.declab.pro/addrbook.json --inet4-only
 ```
 
 **Peer:** ```73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@gitopia.declab.pro:26627```
 
-```
+```shell
 PEERS=73ef1c0f9bc77fd925decf7fa41f22a35b5dc76d@gitopia.declab.pro:26627,c35eb6124591bad21673e8d802898faa18e0352a@65.109.29.150:36656,a0b6c89b4fe0f455a027080103bffd001f3b6248@65.21.134.202:26356,e46b53a03cc5d369f743f049618517da7902cc50@147.135.31.22:11356,fbeb3707a4313bb06e89cfb08864ed2582eb7e47@65.108.141.109:30656,7324256048dd091bb1905b4bcda888d79d3592c5@103.180.28.90:26656
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.gitopia/config/config.toml
 ```
@@ -38,7 +38,7 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.gitop
 
 **Link:** ```https://gitopia.declab.pro/latest.tar.lz4```
 
-```
+```shell
 # Reset tendermint chain
 gitopiad tendermint unsafe-reset-all
 
@@ -48,7 +48,7 @@ curl -o - -L https://gitopia.declab.pro/latest.tar.lz4 | lz4 -c -d - | tar -x -C
 
 ## State sync
 
-```
+```shell
 RPC="https://gitopia.declab.pro:26625"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
