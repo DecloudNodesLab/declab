@@ -13,14 +13,13 @@
     * [Empower](mainnets/empower.md)
     * [Gitopia](mainnets/gitopia.md)
     * [Juno](mainnets/juno.md)
-    * [Lava](mainnets/lava.md)
     * [Realio Network](mainnets/realio.md)
     * [Kyve Protocol](mainnets/kyve.md)
     * [Sentinelhub](mainnets/sentinel.md)
     * [Source](mainnets/source-protocol.md)
   * [Testnets](blockchains-lab/testnets/README.md)
     * [Akash Sandbox](testnets/sandbox.md)
-    * [Lava](testnets/lava.md)
+
 
 * [Software](software/README.md)
   * [3proxy](software/3proxy.md)
