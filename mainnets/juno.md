@@ -37,7 +37,7 @@ sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.juno/
 
 ## Snapshot 
 
-**Link:** ```https://juno.declab.pro/latest.tar.lz4```
+**Link:** ```https://juno.declab.pro/snapshot.tar.lz4```
 
 ```shell
 # Reset tendermint chain
